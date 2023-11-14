@@ -1,0 +1,29 @@
+{
+  "name": "my-vite-app",
+  "version": "1.0.0",
+  "description": "A vanilla JS app using Vite",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vite",
+    "javascript",
+    "vanilla"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.6.14"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@studio-freight/lenis": "^1.0.27",
+    "barba": "^1.0.0",
+    "gsap": "^3.12.2",
+    "hammerjs": "^2.0.8",
+    "lenis": "^0.0.2"
+  }
+}

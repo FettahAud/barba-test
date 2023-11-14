@@ -5,9 +5,6 @@ import Lenis from '@studio-freight/lenis'
 
 gsap.registerPlugin(ScrollTrigger);
 
-
-gsap.registerPlugin(ScrollTrigger);
-
 class PageTransition {
   constructor() {
     this.footer = document.querySelector(".section_sticky-footer");
@@ -169,7 +166,7 @@ class PageTransition {
         start: "top 70%",
         end: "50% 70%",
         pin: false,
-        markers: true, 
+        markers: false, 
       },
     });
   }
